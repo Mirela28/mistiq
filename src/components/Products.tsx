@@ -19,17 +19,14 @@ import mistiqFusion3 from "../assets/bags/mistiq-fusion/mistiq-fusion3.png";
 
 import oceanMistiq1 from "../assets/bags/ocean-mistiq/ocean-mistiq1.png";
 import oceanMistiq2 from "../assets/bags/ocean-mistiq/ocean-mistiq2.png";
-import oceanMistiqVideo from "../assets/bags/ocean-mistiq/ocean-mistiq3.mov";
 
 import missFlorence1 from "../assets/bags/miss-florence/miss-florence1.png";
 import missFlorence2 from "../assets/bags/miss-florence/miss-florence2.png";
 import missFlorence3 from "../assets/bags/miss-florence/miss-florence3.png";
 import missFlorence4 from "../assets/bags/miss-florence/miss-florence4.png";
 import missFlorence5 from "../assets/bags/miss-florence/miss-florence5.png";
-import missFlorenceVideo from "../assets/bags/miss-florence/miss-florence6.mov";
 
 import classicMistiqBow1 from "../assets/bags/classic-mistiq-bow/classic-mistiq-bow1.png";
-import classicMistiqBow2 from "../assets/bags/classic-mistiq-bow/classic-mistiq-bow2.mov";
 
 import classicMistiq1 from "../assets/bags/classic-mistiq/classic-mistiq1.png";
 import classicMistiq2 from "../assets/bags/classic-mistiq/classic-mistiq2.png";
@@ -74,7 +71,7 @@ const PRODUCTS: Product[] = [
   {
     name: "Ocean Mistiq",
     price: 54.99,
-    media: [{ type: "image", src: oceanMistiq2 }, { type: "image", src: oceanMistiq1 }, { type: "video", src: oceanMistiqVideo }],
+    media: [{ type: "image", src: oceanMistiq2 }, { type: "image", src: oceanMistiq1 }, { type: "video", src: "/ocean-mistiq3.mov" }],
     category: "bags",
   },
   {
@@ -86,7 +83,7 @@ const PRODUCTS: Product[] = [
       { type: "image", src: missFlorence3 },
       { type: "image", src: missFlorence4 },
       { type: "image", src: missFlorence5 },
-      { type: "video", src: missFlorenceVideo },
+      { type: "video", src: "/miss-florence6.MOV" },
     ],
     category: "bags",
   },
@@ -105,7 +102,7 @@ const PRODUCTS: Product[] = [
   {
     name: "Classic Mistiq Bow",
     price: 49.99,
-    media: [{ type: "image", src: classicMistiqBow1 }, { type: "video", src: classicMistiqBow2 }],
+    media: [{ type: "image", src: classicMistiqBow1 }, { type: "video", src: "/classic-mistiq-bow2.MOV" }],
     category: "bags",
   },
   {

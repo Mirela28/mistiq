@@ -1,4 +1,3 @@
-import video from "../assets/mistiq-photos/home-video.mp4";
 import { Link } from "react-router-dom";
 import BagShowcase from "./BagShowcase";
 import bagImg from "../assets/mistiq-photos/bag-nobg.png";
@@ -14,7 +13,7 @@ export default function Home() {
           muted
           playsInline
           className="w-full h-full object-cover object-center scale-105 blur-sm"
-          src={video}
+          src="/home-video-compressed.mp4"
         ></video>
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute inset-0 flex flex-col justify-start items-start pl-8 md:pl-16 pt-8 md:pt-16 gap-3">
