@@ -118,8 +118,8 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
                                         onClick={() => setActiveIndex(i)}
                                         aria-label={`Go to slide ${i + 1}`}
                                         className={`h-1.5 rounded-full transition-all duration-300 ${i === activeIndex
-                                                ? "w-5 bg-gradient-to-r from-pink-500 to-purple-500"
-                                                : "w-1.5 bg-white/80"
+                                                ? "w-5 bg-[#3B1E08]"
+                                                : "w-1.5 bg-gray-400"
                                             }`}
                                     />
                                 ))}

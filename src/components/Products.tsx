@@ -190,7 +190,7 @@ export default function Products() {
               >
                 {tab.label}
                 <span
-                  className={`absolute left-0 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-pink-500 to-purple-500 transition-all duration-300 ${
+                  className={`absolute left-0 -bottom-0.5 h-[2px] rounded-full bg-[#3B1E08] transition-all duration-300 ${
                     isActive ? "w-full" : "w-0"
                   }`}
                 />

@@ -47,7 +47,7 @@ export default function Category() {
               className="text-gray-800 -translate-x-1 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300"
             />
           </div>
-          <span className="h-[2px] w-0 group-hover:w-10 transition-all duration-300 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 mt-1" />
+          <span className="h-[2px] w-0 group-hover:w-10 transition-all duration-300 rounded-full bg-[#3B1E08] mt-1" />
         </Link>
       ))}
     </div>

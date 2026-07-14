@@ -2,9 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logo from "../assets/mistiq-photos/mistiq-logo.png";
+import "./Navbar.css";
 
 const NAV_LINKS = [
-  { label: "About", to: "#about" },
+  { label: "About", to: "/#about" },
   { label: "Products", to: "/#products" },
   { label: "Contact", to: "#contact" },
 ];
@@ -14,12 +15,18 @@ export default function Navbar() {
 
   return (
     <header className="relative sticky top-0 z-50 w-full bg-white shadow-sm">
+      <div className="promo-banner-container">
+        <div className="promo-banner">
+          <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+          <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+        </div>
+      </div>
       <nav className="flex h-16 items-center justify-between px-4">
         <a href="/" className="flex items-center mt-3 shrink-0">
           <img
             src={logo}
             alt="Logo"
-            className="h-50 w-50 rounded-full object-cover"
+            className="h-full w-43 rounded-full object-cover"
           />
         </a>
 

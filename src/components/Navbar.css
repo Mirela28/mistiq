@@ -1,0 +1,48 @@
+.promo-banner-container {
+  background: linear-gradient(90deg, #ff6b9d, #ffa500, #ff6b9d);
+  overflow: hidden;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.promo-banner {
+  display: flex;
+  gap: 2rem;
+  animation: slide 15s linear infinite;
+  white-space: nowrap;
+}
+
+.promo-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* For smooth continuous loop, duplicate the text as shown in JSX */
+.promo-banner {
+  width: 200%;
+}
+
+@media (max-width: 768px) {
+  .promo-banner-container {
+    height: 35px;
+  }
+
+  .promo-text {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+}
