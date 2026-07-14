@@ -9,9 +9,15 @@
 
 .promo-banner {
   display: flex;
-  gap: 2rem;
-  animation: slide 15s linear infinite;
-  white-space: nowrap;
+  width: fit-content;
+  animation: slide 32s linear infinite;
+}
+
+.promo-group {
+  display: flex;
+  gap: 4rem;
+  padding-right: 4rem;
+  flex-shrink: 0;
 }
 
 .promo-text {
@@ -20,20 +26,17 @@
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 @keyframes slide {
-  0% {
+  from {
     transform: translateX(0);
   }
-  100% {
+  to {
     transform: translateX(-50%);
   }
-}
-
-/* For smooth continuous loop, duplicate the text as shown in JSX */
-.promo-banner {
-  width: 200%;
 }
 
 @media (max-width: 768px) {

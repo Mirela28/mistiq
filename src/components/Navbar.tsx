@@ -17,8 +17,18 @@ export default function Navbar() {
     <header className="relative sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="promo-banner-container">
         <div className="promo-banner">
-          <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
-          <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+          <div className="promo-group">
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+          </div>
+          <div className="promo-group">
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+            <span className="promo-text">✨ 20% OFF ON FIRST ORDER OF BAGS ✨</span>
+          </div>
         </div>
       </div>
       <nav className="flex h-16 items-center justify-between px-4">
